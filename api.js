@@ -23,7 +23,6 @@ console.log(environment)
 const query = `mongodb+srv://${environment.DBMONGOUSER}:${environment.DBMONGOPASS}@${environment.DBMONGOSERV}/${environment.DBMONGO}?retryWrites=true&w=majority`
 // const query2 = "mongodb+srv://sebaser99:Alexs59208Ard741.12@parquesoft.va4wu0k.mongodb.net/admin?retryWrites=true&w=majority&appName=parquesoft"
 
-console.log(query)
 
 const db = query;
 
